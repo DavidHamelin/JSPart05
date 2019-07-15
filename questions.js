@@ -1,5 +1,6 @@
 var languagesArrayCreation = function () {
   var languages = ['Html','CSS','Java','PHP']
+  // var languages = Array('Html','CSS','Java','PHP');
   return languages;
 }
 
@@ -10,6 +11,7 @@ var numbersArrayCreation = function () {
 
 var ElementReplacement = function (languages) {
   languages.splice(2, 1, 'Javascript');
+  // languages[2] = 'Javascript';
   return languages;
 }
 
